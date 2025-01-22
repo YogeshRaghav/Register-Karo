@@ -6,6 +6,7 @@ Registaro is a cutting-edge web application designed to provide an adaptive and 
 - **Effortless Navigation**: Optimized routing using React Router.
 - **Modular and Scalable Codebase**: Built for maintainability and scalability.
 - **Customizable Components**: Easily extend or modify UI elements.
+- **Page Switching via Navbar: Users can seamlessly switch between pages based on the selected navbar item, with dynamic content updates.
 
 ## Technology Stack
 - **React**: For building reusable UI components and managing application state.
