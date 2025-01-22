@@ -1,0 +1,99 @@
+/* Our Services Section */
+.our-services {
+    padding: 4rem 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .our-services h1 {
+    font-size: 2.5rem;
+    font-family: fangsong;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .our-services p {
+    font-size: 1.2rem;
+    font-family: serif;
+    margin-bottom: 2rem;
+    color: #555;
+  }
+  
+  /* Services List */
+  .services-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background-color: transparent; /* Remove the card's background color */
+    color: black;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px; 
+    border-right: 2px solid #ddd; 
+    transition: transform 0.3s ease-in-out;
+    box-shadow: none; 
+  }
+  
+  .card:last-child {
+    border-right: none; /* Remove the vertical line for the last card */
+  }
+  
+  .card h3 {
+    font-size: 1rem; 
+    font-weight: bold; 
+    font-family: math;
+    color:orange; 
+    margin-bottom: 1rem;
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 1.5rem;
+    flex-grow: 1; 
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; 
+  }
+  
+  .card button {
+    background-color: transparent; 
+    color: #333; 
+    padding: 0.7rem 1.5rem;
+    border: none; /* Remove border */
+    cursor: pointer;
+    font-size: 1.2rem; 
+    margin-top: auto; 
+    transition: all 0.3s ease; 
+  }
+  
+  .card button:hover {
+    color: #ff9800; /* Change text color to orange on hover */
+    transform: scale(1.1); 
+    text-decoration: underline; 
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .services-list {
+      grid-template-columns: 1fr 1fr; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .services-list {
+      grid-template-columns: 1fr;
+    }
+  }
+  

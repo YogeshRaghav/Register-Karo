@@ -1,0 +1,91 @@
+.faq {
+    padding: 2rem;
+    background-color: #f8f8f8;
+  }
+  
+  .faq h4 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .faq-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    margin-bottom: 20px; 
+    transition: all 0.3s ease; /* Transition for hover effects */
+  }
+  
+  .faq-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+    flex: 1; /* Allow text to take available space */
+    padding: 10px; 
+    border-radius: 8px; 
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+  }
+  
+  .faq-item p:hover {
+    background-color: #ff9800; /* Highlight color on hover */
+    color: white; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px; /* Ensure some spacing above the button */
+  }
+  
+  button:hover {
+    background-color: #e68900;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .faq h4 {
+      font-size: 1.8rem;
+    }
+  
+    .faq-item {
+      flex-direction: column; 
+      text-align: center; 
+      gap: 10px; 
+    }
+  
+    .faq-item p {
+      font-size: 1.2rem; 
+    }
+  
+    button {
+      width: 100%; /* Make the button full width */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .faq h4 {
+      font-size: 1.5rem;
+    }
+  
+    .faq-item p {
+      font-size: 1.1rem;
+    }
+  
+    button {
+      padding: 0.5rem 1rem;
+    }
+  }
+  

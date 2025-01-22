@@ -1,0 +1,202 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 1.0rem 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-container {
+    flex: 1;
+  }
+  
+  .logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .highlight {
+    color: #ff9800;
+  }
+  
+  .nav-contact-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar li {
+    margin: 0 1rem;
+    cursor: pointer;
+  }
+  
+  .navbar li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .navbar li a:hover {
+    text-decoration: underline;
+  }
+  
+  .contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .contact a {
+    color: #ff9800;
+    text-decoration: none;
+  }
+  
+  .contact .btn-primary {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  /* Hero and Services Section Combined */
+  .hero-services {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+    background-color: #f4f4f4;
+    height: 100vh; /* Full viewport height */
+    align-items: center; 
+  }
+  
+  /* Hero Content */
+  .hero-content {
+    max-width: 60%; 
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .stats {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .stats span {
+    font-weight: bold;
+  }
+  
+  .btn-secondary {
+    background-color: #ff9800;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Right Side (Service Cards + Hero Image) */
+  .right-side {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative; /* To place service cards over the image */
+    height: 100%; /* Full height of the container */
+  }
+  
+  /* Service Cards */
+  .service-cards {
+    display: flex;
+    flex-direction: column;
+    font-family: serif;
+    gap: 1.5rem;
+    background-image: url('../Images/Pic1.jpg'); /* Add your image path here */
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 100%; /* Make sure the service cards take up full height */
+  }
+  
+  /* Service Card */
+  .service-card {
+    background-color: whitesmoke; /* Transparent background */
+    color: black; /* Black text color */
+    padding: 1.5rem;
+    border-radius: 5px;
+    text-align: center;
+    width: calc(50% - 1rem); /* Two cards in the same row with a gap */
+    margin-bottom: 1.5rem; 
+    float: right; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+  
+  /* Hero Image */
+  .hero-image {
+    display: flex;
+    justify-content: center;
+    height: 100%; /* Full height */
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Footer */
+  footer {
+    color: black;
+    text-align: center;
+    padding: 3rem 0;
+  }
+  
+  footer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .brands {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .brands img {
+    height: 40px;
+  }
+  
