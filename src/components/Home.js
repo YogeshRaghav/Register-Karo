@@ -5,8 +5,6 @@ import samsung from '../Images/samsung.png'
 import Monday from '../Images/Monday.png'
 import Morphous from '../Images/Morphous.png'
 import twilio from '../Images/twilio.png'
-// import MainSection from "./MainSection";
-import BlogsSection from "./BlogsSection";
 
 const Home = () => {
   return (
@@ -53,10 +51,6 @@ const Home = () => {
         </div>
       </footer>
     </div>
-    {
-      // <MainSection/>
-      <BlogsSection/>
-    }
     </>
   );
 };

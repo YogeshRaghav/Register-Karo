@@ -40,7 +40,7 @@ const blogs = [
     tags: ['Tax & Audit', 'Management'],
   },
   {
-    image: SU,
+    image: laptop,
     title: 'Scale-Up Company Offer',
     author: 'Richa Singh',
     date: '1 Jan 2023',
@@ -48,7 +48,7 @@ const blogs = [
     tags: ['Tax Return', 'Audit'],
   },
   {
-    image: laptop,
+    image: SU,
     title: 'Scale-Up Company Offer',
     author: 'Miss Nora',
     date: '1 Jan 2023',

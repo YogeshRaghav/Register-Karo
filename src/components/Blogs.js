@@ -1,6 +1,7 @@
 import React from 'react';
 import { MdKeyboardArrowRight } from "react-icons/md";
 import '../Styles/Blog.css'
+import BlogsSection from './BlogsSection';
 
 const Blogs = () => {
   const faqs = [
@@ -12,6 +13,10 @@ const Blogs = () => {
   ];
 
   return (
+    <>
+    {
+      <BlogsSection/>
+    }
     <div className='faq'>
       <h4>Frequently Asked Questions</h4>
       <div>
@@ -24,6 +29,7 @@ const Blogs = () => {
       </div>
       <button>Show more</button>
     </div>
+    </>
   );
 }
 
