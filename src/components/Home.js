@@ -1,5 +1,5 @@
 import React from "react";
-import '../Styles/Home.css'
+import '../Styles/Hero.css'
 import Oracle from '../Images/Oracle.png'
 import samsung from '../Images/samsung.png'
 import Monday from '../Images/Monday.png'
@@ -9,9 +9,9 @@ import twilio from '../Images/twilio.png'
 const Home = () => {
   return (
     <div>
-      {/* Home Section */}
-      <section className="Home-services">
-        <div className="Home-content">
+      {/* Hero Section */}
+      <section className="hero-services">
+        <div className="hero-content">
           <h1>Your trusted partner for compliance business needs</h1>
           <p>
             An online business compliance platform that helps entrepreneurs and
