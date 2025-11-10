@@ -6,10 +6,10 @@ import BlogsSection from './BlogsSection';
 const Blogs = () => {
   const faqs = [
     "Can I recover deleted files from desktop with this software?",
-    "Can I recover deleted files from desktop with this software?",
-    "Can I recover deleted files from desktop with this software?",
-    "Can I recover deleted files from desktop with this software?",
-    "Can I recover deleted files from desktop with this software?"
+    "What is the company’s mission and core values?",
+    "How does the company support employee growth and development?",
+    "What is the process for requesting time off or leave?",
+    "What should I do if I encounter a technical issue or system error?"
   ];
 
   return (
