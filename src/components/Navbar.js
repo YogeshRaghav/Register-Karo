@@ -34,7 +34,7 @@ const Navbar = () => {
         </nav>
 
         <div className="contact">
-          <a href="tel:+918427476183">+91 8427476183</a>
+          <a href="tel:+918427476183">+91 999998888</a>
           <button className="btn-primary">Talk To An Expert</button>
         </div>
       </div>
